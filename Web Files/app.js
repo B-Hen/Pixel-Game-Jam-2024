@@ -16,7 +16,7 @@ window.onload = function(){
     app.view.style.top = '0';
     app.view.style.left = '0';
 
-    document.querySelector("#container").appendChild(app.view);
+    document.body.appendChild(app.view);
 
     const catFishermanTex = PIXI.Texture.from("Assets/Cat-Fisherman.png");
     const catFisherman = new PIXI.Sprite(catFishermanTex);
